@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+html { 
+	background-color: lightgray; 
+}
+
+h1{
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+	width: 1000px;
+	height: 700px;
+	margin: 0px auto 0px auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: white;
+}
+
+header{
+	position:relative;
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+}
+
+footer{
+	clear: both;
+	border-top-width:2px;
+	border-top-style:solid;
+	border-top-color:black;	
+	position:relative;
+	top:0%;
+}
+
+article{
+	float: left;
+}
+
+aside{
+	border-width:2px;
+	border-style:solid;
+	width: 300px;
+	height:430px;
+	float: right;
+
+}
+
+.logo{
+	position:relative;
+	top:8px;
+	left:2%;
+}
+
+.menu{
+	position:absolute;
+	top:25%;
+	left:20%;
+}
+
+.busca{
+	position:absolute;
+	top:40%;
+	right:5%;
+	vertical-align: middle;	
+}
+
+.campo{
+	width:130px;
+	height:20px;
+	border-radius: 10px;
+	
+}
+
+.menu ul li a{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration:none; 
+}
+
+.menu ul li{
+	display: inline;
+	margin-left: 5%;
+}
+
+.menu ul li a:hover{
+	background-color: black;
+	color: white;
+	
+}
+
+.mapa{
+	position:relative;
+	bottom:0;
+	text-align: left;
+}
+
+.mapa ul li{
+	list-style:none;
+}
+
+.mapa ul li a{
+	font-size: 10px;
+	font-weight: bold;
+	color: black;
+	text-decoration:none;
+}
+
+.conteudo{
+	border-width:2px;
+	border-style:solid;
+	width: 620px;
+	height:430px;
+	margin: 10px 0px 10px 10px;
+	padding: 10px;
+}
+
+.conteudo li{
+	margin-top:20px;
+	display: inline-block;
+	vertical-align:top;	
+}
+
+.conteudo_tab table{
+	width: 1000px;
+	height:474px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 10px;
+	border-bottom-width: 0px;
+    border-top-width: 0px;
+}
+
+.artigos{
+	margin: 10px 10px 10px 0px;
+	padding: 10px;
+	
+}
+
+.artigos ol{
+	padding-left: 0px;
+}
+
+.artigos ol li{
+	display: block;
+	vertical-align:top;	
+}
+
+.artigos ol li figure{
+	margin: 40px 0px 40px 0px;	
+}
+
+.artigos ol li figure p{
+	width: 240px;
+	height:57px;
+	margin: 0px 0px 0px 0px;
+	float:right;
+}
+
+.alinhar_cop{
+	text-align: left;
+	margin-top: 50px;
+}
+
+.alinhar_rede{
+	text-align: right;
+	margin-top: -45px;
+	margin-right: 20px;
+}
+
+.margin_img{
+	margin-left:10px;
+}
+
+.esq{
+	text-align: left;
+	margin-top: -5px;
+}
+
+.meio{
+	text-align: center;
+	margin-top: -65px;
+}
+
+.dir{
+	text-align: right;
+	margin-top: -140px;
+	margin-right: 50px;
+}
+
+.quiz{
+	border-width:2px;
+	border-style:solid;
+	border-right:0px;
+	width: 755px;
+	height:440px;
+	margin: 10px 0px 10px 10px;
+	padding: 10px;	
+}
+
+.rank{
+	margin: 10px 10px 10px 0px;
+	padding: 10px;
+	width: 179px;
+	height:430px;	
+}
+
+.rank h1{
+	text-align:center;
+}
+
+.rank ol{
+	padding-left: 0px;
+}
+
+.rank ol li{
+	display: block;
+	vertical-align:top;	
+}
+
+.rank ol li figure{
+	margin: 30px 0px 40px 0px;	
+}
+
+.rank ol li figure p{
+	width: 100px;
+	height:57px;
+	margin: 0px 0px 0px 0px;
+	float:right;
+}
+
+.quiz{
+	position:relative;
+	padding-top: 0px;
+}
+
+.quiz_1{
+	
+}
+
+.quiz_2{
+	width: 200px;
+	height:450px;
+	position:absolute;
+	top:0%;
+	left:25%;
+	border-width:2px;
+	border-style:solid;
+	border: 0px 0px 0px 0px;
+	border-top-width: 0px;
+    border-bottom-width: 0px;
+	padding: 0px 0px 0px 10px;
+
+}
+
+.quiz_3{
+	position:absolute;
+	top:3%;
+	left:53%;
+	vertical-align: middle;
+}
+
+.pergunta1{
+	margin: 70px 0px 0px 20px;
+}
+
+.pergunta2{
+	margin: 50px 0px 0px 20px;
+}
+
+.pergunta3{
+	margin: 70px 0px 0px 20px;
+}
+
+.pergunta4{
+	margin: 50px 0px 0px 20px;
+}
+
+.questionario{
+	margin: 40px 0px 0px 20px;	
+}
+
+.nome{
+	width: 250px;
+	margin-bottom: 30px;
+}
+
+.email{
+	width: 255px;
+	margin-bottom: 30px;
+}
+
+.data{
+	width: 165px;
+	margin-bottom: 30px;
+}
+
+.sexo{
+	width: 260px;
+	margin-bottom: 30px;
+}
+
+.foto{
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+
+.botao{
+	margin: 20px 210px 50px 185px;
+	width: 120px;
+}
+
+.loja{
+	border-width:2px;
+	border-style:solid;
+	width: 955px;
+	height:430px;
+	margin: 10px 0px 10px 10px;
+	padding: 10px;
+}
+
+.loja h1{
+	text-align:center;
+}
+
+.loja ol{
+	padding-left: 10px;
+	margin-top: 0px;
+}
+
+.loja li{
+	margin-top:20px;
+	display: inline-block;
+	vertical-align:top;	
+}
+
+.jogos{
+	border-width:2px;
+	border-style:solid;
+	width: 480px;
+	height:430px;
+	margin: 10px 0px 10px 10px;
+	padding: 10px;
+}
+
+.jogos h1{
+	text-align:center;
+}
+
+.jogos li{
+	margin-top:20px;
+	display: inline-block;
+	vertical-align:top;	
+}
+
+.emuladores{
+	margin: 10px 10px 10px 0px;
+	padding: 10px 10px 10px 150px;	
+}
+
+.emuladores h1{
+	text-align:left;
+}
+
+.emuladores ol{
+	padding-left: 0px;
+}
+
+.emuladores ol li{
+	display: inline;	
+}
+
